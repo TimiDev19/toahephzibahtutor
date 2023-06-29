@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.home{
+    background-image: url(./img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.logo{
+    text-align: center;
+    color: black;
+}
+
+.logo img{
+    width: 600px;
+    display: flex;
+    justify-self: center;
+    margin: auto;
+}
+
+.logo h1{
+    font-size: 30px;
+    font-weight: 600;
+    text-shadow: 0 1rem 1rem black;
+}
+
+.logo h2{
+    font-size: 25px;
+    font-weight: 450;
+    text-shadow: 1rem 1rem 1rem black;
+}
+
+.home a{
+    text-align: center;
+    display: flex;
+    text-decoration: none;
+    margin: auto;
+}
+
+.home button{
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+    font-size: medium;
+    background-color: lime;
+    color: white;
+    font-weight: 400;
+    letter-spacing: .1rem;
+    border: 1px solid lime;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 1rem lime;
+}
+
+.home button:hover{
+    box-shadow: none;
+}
+
+.page-1{
+    margin: 10px 0;
+    border-top: 3px solid lime;
+}
+
+.info{
+    margin-left: 10px;
+}
+
+.info h1{
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+form{
+    margin-left: 20px;
+}
+
+.info{
+    font-size: 18px;
+    font-weight: 200;
+    margin: 10px 0;
+}
+
+.info h2{
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.month{
+    height: 40px;
+    width: fit-content;
+    border: 1px solid lime;
+    border-radius: 10px;
+}
+
+select{
+    width: 200px;
+    height: 40px;
+    border: 1px solid lime;
+    border-radius: 10px;
+}
+
+.textarea{
+    width: 300px;
+    height: 200px;
+    border: 1px solid lime;
+    border-radius: 10px;
+}
+
+.nodfl{
+    width: 50px;
+    height: 40px;
+    border: 1px solid lime;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.radio{
+    margin: 6px;
+}
+
+.ContactInfo{
+    height: 40px;
+    border: 1px solid lime;
+    padding: 5px 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#Hire{
+    margin-top: 20px;
+    display: block;
+    padding: 3px;
+    font-size: 20px;
+    width: 200px;
+    background-color: lime;
+    box-shadow: 0 0 1rem lime;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+#Hire:hover{
+    box-shadow: none;
+}
+
+@media (max-width: 450px){
+    .home{
+        margin: auto;
+        max-width: 250px;
+        background-image: none;
+        padding: 0;
+        height: 1140px;
+    }
+    .logo{
+        width: 250px;
+    }
+    .logo img{
+        width: 250px;
+    }
+    .home button{
+        text-align: center;
+    }
+}
